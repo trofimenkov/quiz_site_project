@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.auth_wrapper {
+    margin-top: 20vh;
+    margin-bottom: auto;
+}
+.header_wrapper {
+    width: 100%;
+}
+
+a {
+    color:#272c33;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+} 
+
+h1 {
+    padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #272c33;
+    color: #fff;
+    border: unset;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.msg_error {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #F8F3D6;
+    color: #7e6842;
+}
+
+.msg_done {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #DEF2D6;
+    color: #597154;
+}
+
+.msg_alert {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #EBC8C4;
+    color: #B1322F;
+}
